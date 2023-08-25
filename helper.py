@@ -24,3 +24,9 @@ def get(index):
 
 def update(index):
     items[index].isCompleted = not items[index].isCompleted
+    
+def delete(index):
+    if 0 <= index < len(items):
+        del items[index]
+    else:
+        print("Index out of range. No item deleted.")
