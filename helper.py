@@ -30,3 +30,5 @@ def delete(index):
         del items[index]
     else:
         print("Index out of range. No item deleted.")
+
+        
